@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 40%;
+
+  text-align: center;
+  padding: 20px;
+
+  height: 420px;
+  width: 390px;
+
+  box-shadow: #eaebed 0px 5px 15px;
+}
+
+.heading {
+  color: #0b69ff;
+}
+.pera {
+  color: #333333;
+  font-weight: 400;
+}
+.pera1 {
+  color: #0b69ff;
+  font-weight: bold;
+  font-size: 45px;
+}
+.button {
+  background-color: #0b69ff;
+  color: #eaebed;
+  cursor: pointer;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+}
